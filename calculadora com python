@@ -1,59 +1,11 @@
-{
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "provenance": [],
-      "authorship_tag": "ABX9TyN2H+kHcPOK2qzaovkAgLIT",
-      "include_colab_link": true
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    }
-  },
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/MauricioPlateiro/MauricioPlateiro/blob/main/calculadora%20com%20python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "execution_count": null,
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "IOYrfg2LCkJk",
-        "outputId": "4feccad2-b311-47c1-e7eb-9ac982b23926"
-      },
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "Digite um numero: 4\n",
-            "Digite o outro numero: 5\n",
-            "Digite o operador (+-/*): /\n",
-            "4.0 / 5.0 = 0.8\n"
-          ]
-        }
-      ],
-      "source": [
+### Calculadora utilizando python ###
+
         "while True:\n",
+
         "    numero_1 = input(\"Digite um numero: \")\n",
         "    numero_2 = input(\"Digite o outro numero: \")\n",
         "    operador = input(\"Digite o operador (+-/*): \")\n",
-        "\n",
+         "\n",
         "    try:\n",
         "        nun_1_float = float(numero_1)\n",
         "        nun_2_float = float(numero_2)\n",
